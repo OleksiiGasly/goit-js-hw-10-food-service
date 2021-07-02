@@ -3,9 +3,9 @@ import menu from './menu.json';
 import menuTemplate from './templates/menu.hbs';
 
 const refs = {
-    menuEl = document.querySelector('.js-menu'),
-    bodyEl = document.querySelector('body'),
-    themeSwitchEl = document.querySelector('#theme-switch-toggle'),
+    menuEl: document.querySelector('.js-menu'),
+    bodyEl: document.querySelector('body'),
+    themeSwitchEl: document.querySelector('#theme-switch-toggle'),
 };
 
 refs.menuEl.innerHTML = menuTemplate(menu);
